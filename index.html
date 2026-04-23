@@ -3,238 +3,83 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prowhitegh | BEST TEETH WHITENING IN ACCRA</title>
-
+<title>Medical Website</title>
+<link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
-<style>
-body {
-margin: 0;
-font-family: 'Poppins', sans-serif;
-background: #0a1f44;
-color: white;
-}
-/* SERVICES SECTION */
-.services-section {
-  padding: 120px 40px;
-  text-align: center;
-  background: linear-gradient(135deg, #0a1f44, #020617);
-  opacity: 0;
-  transform: translateY(80px);
-  transition: 1s;
-}
-
-.services-section.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.services-section h2 {
-  font-size: 50px;
-  color: gold;
-  margin-bottom: 50px;
-  letter-spacing: 2px;
-}
-
-/* GRID */
-.services-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-  gap: 30px;
-}
-
-/* GLASS CARDS */
-.service-card {
-  padding: 30px;
-  border-radius: 20px;
-  background: rgba(255,255,255,0.05);
-  backdrop-filter: blur(15px);
-  border: 1px solid rgba(255,255,255,0.1);
-  transition: 0.4s;
-}
-
-.service-card:hover {
-  transform: translateY(-10px) scale(1.03);
-  border-color: gold;
-}
-
-.service-card h3 {
-  color: gold;
-  margin-bottom: 10px;
-}
-
-.service-card p {
-  font-size: 14px;
-  color: #ddd;
-}  
-
-/* NAV */
-header {
-position: fixed;
-width: 100%;
-padding: 20px 40px;
-display: flex;
-justify-content: space-between;
-background: rgba(0,0,0,0.6);
-backdrop-filter: blur(10px);
-}
-
-header h1 {
-color: gold;
-}
-
-/* HERO */
-.hero {
-height: 100vh;
-display: flex;
-align-items: center;
-padding: 0 40px;
-}
-
-.hero h2 {
-font-size: 50px;
-max-width: 600px;
-}
-
-.hero span {
-color: gold;
-}
-
-.btn {
-margin-top: 20px;
-padding: 15px 25px;
-background: gold;
-color: black;
-text-decoration: none;
-border-radius: 8px;
-}
-
-/* SECTIONS */
-.section {
-padding: 100px 40px;
-opacity: 0;
-transform: translateY(40px);
-transition: 1s;
-}
-
-.section.show {
-opacity: 1;
-transform: translateY(0);
-}
-
-/* GRID STYLE (like your Instagram) */
-.grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-}
-
-.grid div {
-height: 200px;
-}
-
-.blue {
-background: #1e40af;
-}
-
-.gold {
-background: #d4af37;
-}
-
-/* FOOTER */
-footer {
-text-align: center;
-padding: 20px;
-background: black;
-}
-
-</style>
-
 </head>
 
 <body>
 
+<!-- NAVBAR -->
 <header>
-<h1>Prowhitegh</h1>
+<div class="logo">VOPIX</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-<div>
-<h2>Advanced <span>Teeth Whitening</span> in Accra</h2>
-<p>Luxury results. Instant confidence.</p>
-<a href="https://wa.me/233596854584" class="btn">Book Now</a>
+<div class="hero-text">
+<h1>Caring Health is Important Than All</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<div class="buttons">
+<button class="btn-primary">Get Appointment</button>
+<button class="btn-outline">Learn More</button>
+</div>
 </div>
 </section>
 
-<section class="section">
-<h2>Our Work</h2>
-<div class="grid">
-<div class="blue"></div>
-<div class="gold"></div>
-<div class="blue"></div>
-<div class="gold"></div>
+<!-- STATS -->
+<section class="stats">
+<div class="stat">850 <span>Patients Beds</span></div>
+<div class="stat">25000+ <span>Happy Patients</span></div>
+<div class="stat">750 <span>Doctors & Nurse</span></div>
+<div class="stat">18 <span>Years Experience</span></div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+<div class="about-img"></div>
+<div class="about-text">
+<h2>About Our Hospital</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<ul>
+<li>✔ Browse Our Website</li>
+<li>✔ Choose Service</li>
+<li>✔ Send Message</li>
+</ul>
+<button class="btn-primary">Know More</button>
 </div>
 </section>
-<section class="section">
-  <section class="section">
-  <h2>About Prowhitegh</h2>
-  <p>
-    At Prowhitegh, we specialize in advanced teeth whitening services in Accra,
-    delivering safe, fast, and visible results in just one session. Our goal is
-    to boost your confidence by giving you a brighter, more radiant smile.
-  </p>
 
-  <p>
-    We use modern whitening techniques designed for comfort and effectiveness,
-    trusted by clients across Accra who want premium results without compromise.
-  </p>
-    
-    <section class="services-section">
-  <h2>OUR SERVICES</h2>
-
-  <div class="services-container">
-
-    <div class="service-card">
-      <h3>Teeth Whitening</h3>
-      <p>Get a brighter smile with our professional whitening. Safe, fast and visible results in one session.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Teeth Scaling</h3>
-      <p>Deep cleaning that removes plaque and keeps your teeth and gums healthy.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Teeth Polishing</h3>
-      <p>Smooth finishing touch that gives your teeth a shiny, clean look.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Smile Care Tips</h3>
-      <p>Learn how to maintain your white smile with expert daily care tips.</p>
-    </div>
-
-  </div>
-</section>
-</section>
-<h2>Why Choose Us</h2>
-<p>We redefine confidence with advanced whitening designed for flawless results.</p>
+<!-- SERVICES -->
+<section class="services">
+<h2>Our Hospital Services</h2>
+<div class="service-grid">
+<div class="card">Expert Doctor</div>
+<div class="card">Diagnosis</div>
+<div class="card">Pathology</div>
+<div class="card">Dental Care</div>
+</div>
 </section>
 
+<!-- FOOTER -->
 <footer>
-<p>© 2026 Prowhitegh</p>
+<div class="footer-content">
+<h2>VOPIX</h2>
+<p>Luxury healthcare experience</p>
+<div class="socials">
+<span>Facebook</span>
+<span>Instagram</span>
+<span>Twitter</span>
+</div>
+</div>
 </footer>
 
-<script>
-const sections = document.querySelectorAll('.section');
-
-window.addEventListener('scroll', () => {
-sections.forEach(sec => {
-if(sec.getBoundingClientRect().top < window.innerHeight - 100){
-sec.classList.add('show');
-}
-});
-});
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
